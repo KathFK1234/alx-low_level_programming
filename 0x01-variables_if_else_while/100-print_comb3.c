@@ -18,12 +18,16 @@ int main(void)
 			{
 				putchar('0' + m);
 				putchar('0' + k);
-				if (m != '8' || k != '9')
+				if (m != '9' || k != '8')
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
+		}
+		if (m == 8 && k == 10)
+		{
+			break;
 		}
 	}
 	putchar('\n');
