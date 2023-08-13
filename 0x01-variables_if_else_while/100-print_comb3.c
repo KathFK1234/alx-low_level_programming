@@ -18,8 +18,7 @@ int main(void)
 			{
 				putchar('0' + m);
 				putchar('0' + k);
-				
-				if (m != '9' || k != '8')
+				if (m != '8' || k != '9')
 				{
 					putchar(',');
 					putchar(' ');
