@@ -9,7 +9,6 @@ int main(void)
 {
 	int k; 
 	int m; 
-
 	for (k = 0; k <= 99; k++)
 	{
 		for (m = k + 1; m <= 99; m++)
@@ -19,7 +18,6 @@ int main(void)
 			putchar(' ');
 			putchar(m / 10 + '0');
 			putchar(m % 10 + '0');
-
 			if (!(k == 98 && m == 99))
 			{
 				putchar(',');
