@@ -10,23 +10,20 @@ int main(void)
 	int k;
 	int m;
 
-	for (k = 10; k <= 19; k++)
+	for (k = 0; k <= 9; k++)
 	{
-		for (m = 10; m <= 19; m++)
+		for (m = 0; m <= 9; m++)
 		{
-			if ((m % 10) > (k % 10))
+			putchar(k);
+			putchar(m);
+
+			if (m != '8' || k != '9')
 			{
-				putchar((k % 10) + '0');
-				putchar((m % 10) + '0');
-				if (k != 18 || m != 19);
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
-
 	putchar('\n');
 	return (0);
 }
