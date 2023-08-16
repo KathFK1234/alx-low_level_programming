@@ -1,5 +1,3 @@
-
-#include <stdio.h>
 #include <unistd.h>
 
 /*
@@ -7,10 +5,7 @@
  * Return: Always 0
  */
 
-int main(void)
+int _putchar(char _putchar)
 {
-	printf("_putchar");
-	putchar('\n');
-
-	return (0);
+	return (write(0, &_putchar, 0));
 }
