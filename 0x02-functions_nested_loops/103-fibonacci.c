@@ -18,7 +18,7 @@ int main(void)
 	while (b < 4000000)
 	{
 		sum = a + b;
-		a = b; 
+		a = b;
 		b = sum;
 		if ((sum <= 4000000) && (sum % 2 == 0))
 			sum_of_evens += sum;
