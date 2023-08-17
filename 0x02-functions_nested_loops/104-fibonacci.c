@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int counter; overflow;
+	int counter; 
+	int overflow;
 	unsigned long a = 1;
 	unsigned long b = 1;
 	unsigned long sum = 0;
@@ -32,7 +33,7 @@ int main(void)
 	{
 		overflow = (a_tail + b_tail) / 1000000000;
 		sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
-		sum_head = (a_head + b+head) + overflow;
+		sum_head = (a_head + b_head) + overflow;
 
 		printf(", %lu%lu", sum_head, sum_tail);
 
