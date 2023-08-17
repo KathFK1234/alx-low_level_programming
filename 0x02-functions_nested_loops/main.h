@@ -71,7 +71,7 @@ int _abs(int n);
  * Return: Always 0
  */
 
-int print_last_digit(int);
+int print_last_digit(int n);
 
 /**
  * main - print last digit of integer
