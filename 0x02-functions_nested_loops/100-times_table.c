@@ -1,9 +1,8 @@
 #include "main.h"
 
 /*
- * print_times_table - prints multiplication table of n
+ * print_times_table - multiplication table of n function
  * @n: integer argument
- * Return: Always 0
  */
 
 void print_times_table(int n)

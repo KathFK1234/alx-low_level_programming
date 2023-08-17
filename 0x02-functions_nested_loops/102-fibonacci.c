@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print first 50 Fibonacci numbers
+ * main - main function
  * Return: Always 0
  */
 
@@ -12,7 +12,7 @@ int main(void)
 	long a = 1;
 	long b = 2;
 
-	for (counter = 1; counter <= (countto / 2); counter++);
+	for (counter = 1; counter <= countto / 2; counter++);
 	{
 		printf("%li %li", a, b);
 		a += b;
