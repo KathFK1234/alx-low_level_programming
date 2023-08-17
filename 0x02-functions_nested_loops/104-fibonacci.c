@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-int main(void);
+int main(void)
 {
 	int counter; overflow;
 	unsigned long a = 1;
@@ -41,7 +41,6 @@ int main(void);
 		b_head = sum_head;
 		b_tail = sum_tail;
 	}
-
 	printf("\n");
 
 	return (0);
