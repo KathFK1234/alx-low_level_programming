@@ -5,6 +5,7 @@ int main(void);
 
 /**
  * main - print _putchar followed by a new line
+ * main - prints _putchar followed by new line
  * Return: Always 0
  */
 
