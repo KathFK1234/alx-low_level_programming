@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * print_times_table - print multiplication table of n
+ * print_times_table - prints multiplication table of n
  * @n: integer argument
  * Return: Always 0
  */
