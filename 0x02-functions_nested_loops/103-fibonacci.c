@@ -5,7 +5,7 @@
  * Return: Always 0
  */
 
-int main(void);
+int main(void)
 {
 	int sum_of_evens = 0;
 	int a;
