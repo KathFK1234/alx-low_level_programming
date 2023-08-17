@@ -90,7 +90,7 @@ int add(int a, int b);
 void print_to_98(int n);
 
 /**
- * print numbers n to 98
+ * print_to_98 - print numbers n to 98
  * @n: integer argument
  * Return: Always 0
  */
@@ -98,7 +98,7 @@ void print_to_98(int n);
 void print_times_table(int n);
 
 /**
- * prints multiplication table of n
+ * print_times_table - prints multiplication table of n
  * @n: integer argument
  * Return: Always 0
  */
