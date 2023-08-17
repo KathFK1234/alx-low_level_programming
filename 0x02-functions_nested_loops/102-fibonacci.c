@@ -16,15 +16,14 @@ int main(void)
 	for (counter = 3; counter <= countto; counter++)
 	{
 		long c = a + b;
-		
-		printf("%li", c);
-		if (counter < countto)
-		{
-			printf(", ");
-		}
-		a = b;		
-		b = c;
 	}
+	printf("%li", c);
+	if (counter < countto)
+	{
+		printf(", ");
+	}
+	a = b;
+	b = c;
 	printf("\n");
 	return (0);
 }
