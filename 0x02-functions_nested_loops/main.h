@@ -1,6 +1,13 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+int main(void);
+
+/**
+ * main - print "_putchar" followed by a new line
+ * Retunr: Always 0
+ */
+
 int _putchar(char c);
 
 /**
