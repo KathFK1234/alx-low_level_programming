@@ -7,12 +7,17 @@
 
 int main(void)
 {
-	int counter; 
+	int counter;
 	int overflow;
 	unsigned long a = 1;
 	unsigned long b = 1;
 	unsigned long sum = 0;
-	long a_head, a_tail, b_head, b_tail, sum_head, sum_tail;
+	long a_head;
+	long a_tail;
+	long b_head;
+	long b_tail;
+	long sum_head;
+	long sum_tail;
 
 	printf("1");
 
