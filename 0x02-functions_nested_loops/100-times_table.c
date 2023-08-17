@@ -1,7 +1,8 @@
 #include "main.h"
 
 /*
- * main - print the n times table, starting with 0
+ * print_times_table - prints multiplication table of n
+ * @n: integer argument
  * Return: Always 0
  */
 
@@ -12,7 +13,7 @@ void print_times_table(int n)
 	int product;
 
 	if (n >= 0 && n <= 15)
-	{ 
+	{
 		for (row = 0; row <= n; row++)
 		{
 			for (column = 0; column <= n; column++)
