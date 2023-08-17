@@ -18,6 +18,10 @@ int main(void)
 	{
 		long c = a + b;
 		printf("%li ", c);
+		if (counter < countto)
+		{
+			printf(", ");
+		}
 		a = b;
 		b = c;
 	}
