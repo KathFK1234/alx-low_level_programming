@@ -16,6 +16,7 @@ int main(void)
 	for (counter = 3; counter <= countto; counter++)
 	{
 		long c = a + b;
+		
 		printf("%li", c);
 		if (counter < countto)
 		{
