@@ -12,7 +12,7 @@ int main(void)
 	long a = 1;
 	long b = 2;
 
-	printf("%li, %li, ", a, b);
+	printf("%li, %li,", a, b);
 
 	for (counter = 3; counter <= countto; counter++)
 	{
@@ -20,7 +20,7 @@ int main(void)
 		printf("%li ", c);
 		if (counter < countto)
 		{
-			printf(",");
+			printf(", ");
 		}
 		a = b;
 		b = c;
