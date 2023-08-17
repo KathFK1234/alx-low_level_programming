@@ -20,7 +20,7 @@ int main(void)
 		printf("%li ", c);
 		if (counter < countto)
 		{
-			printf(", ");
+			printf(",");
 		}
 		a = b;
 		b = c;
