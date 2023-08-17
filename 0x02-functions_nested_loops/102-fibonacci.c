@@ -13,7 +13,6 @@ int main(void)
 	long b = 2;
 
 	printf("%li, %li, ", a, b);
-
 	for (counter = 3; counter <= countto; counter++)
 	{
 		long c = a + b;
@@ -25,6 +24,7 @@ int main(void)
 		a = b;
 		b = c;
 	}
+
 	printf("\n");
 	
 	return (0);
