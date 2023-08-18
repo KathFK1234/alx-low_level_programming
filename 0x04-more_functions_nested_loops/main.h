@@ -1,6 +1,13 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+int _putchar(c);
+
+/**
+ * _putchar - puts character
+ * @c: character to put
+ */
+
 int _isupper(int c);
 
 /**
