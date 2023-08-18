@@ -12,18 +12,18 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	for (a = 972; a > c;)
+	if (a >= b && a >= c)
 	{
-		for (c = 0; c > b;)
-		{
-			for (b = -98; ;)
-			{
-				if (a > b && a > c)
-				{
-					largest = largest_number(a, b, c);
-				}
-			}
-		}
+		largest = a;
 	}
+	else if (b >= a && b >= c)
+	{
+		largest = b;
+	}
+	else
+	{
+		largest = c;
+	}
+
 	return (largest);
 }
