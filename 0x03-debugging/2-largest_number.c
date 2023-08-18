@@ -8,7 +8,7 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+int largest_number(int a, int b, int c);
 {
 	int largest;
 
@@ -19,7 +19,9 @@ int largest_number(int a, int b, int c)
 			for (b = -98; ;)
 			{
 				if (a > b && a > c)
+				{
 					largest = largest_number(a, b, c);
+				}
 			}
 		}
 	}
