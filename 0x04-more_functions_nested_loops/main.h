@@ -1,7 +1,7 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
-int _putchar(c);
+int _putchar(char c);
 
 /**
  * _putchar - puts character
