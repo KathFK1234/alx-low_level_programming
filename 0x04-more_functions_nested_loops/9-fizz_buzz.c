@@ -28,10 +28,6 @@ int main(void)
 		{
 			printf("%d ", x);
 		}
-		if (x = 100)
-		{
-			printf("Buzz");
-		}
 	}
 	printf("\n");
 	return (0);
