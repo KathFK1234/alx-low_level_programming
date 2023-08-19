@@ -31,6 +31,7 @@ int main(void)
 		if (x != 100)
 		{
 			printf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
