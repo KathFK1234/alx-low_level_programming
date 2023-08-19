@@ -66,7 +66,7 @@ void print_diagonal(int n);
 
 /**
  * print_diagonal - draws diagonal line on terminal
- * @n: number of times \ should be printed
+ * @n: number of times '\' should be printed
  * Return: Always 0
  */
 
