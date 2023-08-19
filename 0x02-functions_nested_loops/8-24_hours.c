@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * main - print every minute of day
  * jack_bauer - print every minute of day from 00:00 to 23:59
  * Return: Always 0
  */
