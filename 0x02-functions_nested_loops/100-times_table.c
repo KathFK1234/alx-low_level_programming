@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_times_table - multiplication table of n function
  * @n: integer argument
  */
