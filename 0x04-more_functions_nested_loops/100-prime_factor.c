@@ -14,7 +14,8 @@ int main(void)
 	{
 		if (y % w == 0)
 		{
-			y = y / a;
+			y /= w;
+			w = 2;
 		}
 		else
 			w++;
