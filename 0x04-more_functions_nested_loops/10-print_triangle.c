@@ -11,23 +11,24 @@ void print_triangle(int size)
 {
 	int h;
 	int w;
-	int l;
 	char x = '#';
 
-	for (h = 1; h <= size; h++)
+	if (size > 0)
 	{
-		for (w = 1; w <= (size - h); w++)
+		for (h = 1; h <= size; h++)
 		{
-			_putchar(' ');
-		}
-		
-		for (l = 1; l <= h; l++)
+			for (w = h; w < size; w++)
+			{
+				_putchar(' ');
+			}
+			
+			for (w = 1; w <= h; l++)
 				_putchar(x);
+		}
+		_putchar('\n');
 	}
-	if (size <= 0)
+	else
 	{
-		_putchar('\n')
+		_putchar('\n');
 	}
-
-	return (0);
 }
