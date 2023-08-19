@@ -1,6 +1,13 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+int main(void);
+
+/**
+ * main - check code
+ * Return: Always 0
+ */
+
 int _putchar(char c);
 
 /**
