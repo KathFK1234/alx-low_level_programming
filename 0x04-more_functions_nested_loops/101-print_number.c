@@ -1,17 +1,17 @@
-i#include "main.h"
+#include "main.h"
 
 /**
- * main - Entry point
- * print_number = prints integer
+ * print_number - prints integer
  * @n: integer
  * Return: Always 0
  */
 
 void print_number(int n)
 {
-	int a;
 	int b = 1;
-	unsigned int k, m, x = n;
+	unsigned int k = n;
+	unsigned int m = n;
+	unsigned int x = n;
 
 	if (n == 0)
 	{
@@ -27,13 +27,14 @@ void print_number(int n)
 
 		while (b <= x)
 			b *= 10;
+		k = b / 10;
 
-		while ((b / 10) >= 1)
+		while (k >= 1)
 		{
-			m = x / (b / 10);
-			_putchar(digit + '0');
-			x = (x - ((b / 10) * m));
-			(b / 10) /= 10;
+			m = x / k;
+			_putchar(m + '0');
+			x = (x - (k * m));
+			k /= 10;
 		}
 	}
 }
