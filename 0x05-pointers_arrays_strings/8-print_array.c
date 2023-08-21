@@ -9,3 +9,15 @@
 
 void print_array(int *a, int n)
 {
+	int c = 0;
+
+	for (; c < n; c++)
+	{
+		_putchar('%d', a[c]);
+		if (c != n - 1)
+		{
+			_putchar(', ');
+		}
+	}
+	_putchar('\n');
+}
