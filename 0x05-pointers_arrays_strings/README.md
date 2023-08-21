@@ -1,1 +1,1 @@
-To edit in due time
+0x05. C - Pointers, Arrays, and Strings

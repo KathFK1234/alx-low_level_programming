@@ -27,8 +27,8 @@ void swap_int(int *a, int *b);
 
 /**
  * swap_int - swaps values of two integers
- * @a: First integer
- * @b: Second integer
+ * @*a: First integer
+ * @*b: Second integer
  * Return: Always 0
  */
 
@@ -36,8 +36,8 @@ int _strlen(char *s);
 
 /**
  * _strlen - returns length of string
- * @s: character to return length to
- * Return: Always 0
+ * @*s: character to return length of
+ * Return: Length of string
  */
 
 void _puts(char *str);
@@ -67,7 +67,7 @@ void rev_string(char *s);
 void puts2(char *str);
 
 /**
- * puts2 - prints every other character of a string starting with first character
+ * puts2 - prints every other character of string starting with first one
  * @*str: character to print
  * Return: Always 0
  */
@@ -92,7 +92,7 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 
 /**
- * *_strcpy - copies string pointed to by src to buffer pointed by dest
+ * *_strcpy - copies string pointed by src to buffer pointed by dest
  * @*dest: character where string is copied to
  * @*src: character where original string is copied from
  * Return: Pointer to dest
