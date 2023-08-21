@@ -21,12 +21,12 @@ int main(void)
 	{
 		p[c] = rand() % 78;
 		k += (p[c] + '0');
-		printf("%s\n", p[c] + '0');
+		printf("%d\n", p[c] + '0');
 		if ((2772 - k) - '0' < 78)
 		{
 			x = 2772 - k - '0';
 			k += x;
-			printf("%d\n", n + '0');
+			printf("%d\n", x + '0');
 			break;
 		}
 	}
