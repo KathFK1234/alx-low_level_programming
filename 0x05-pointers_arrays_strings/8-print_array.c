@@ -2,7 +2,7 @@
 
 /**
  * print_array - prints elements of array of integers
- * @*a: array to print
+ * @a: array to print
  * @n: elements of array to print
  * Return: Always 0
  */

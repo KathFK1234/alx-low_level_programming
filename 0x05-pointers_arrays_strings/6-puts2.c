@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other character of string starting with first one
- * @*str: character to print
+ * @str: character to print
  * Return: Always 0
  */
 

@@ -2,15 +2,15 @@
 
 /**
  * _puts - prints string to stdout
- * @*str: character to print
+ * @str: character to print
  * Return: Always 0
  */
 
 void _puts(char *str)
 {
-	while (*str != '\0')
+	while (str != '\0')
 	{
-		*str++;
+		str++;
 	}
 
 	_putchar('\n');
