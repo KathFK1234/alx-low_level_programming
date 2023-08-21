@@ -8,3 +8,7 @@
 
 int _strlen(char *s)
 {
+	len = strlen(*s);
+
+	_putchar('%d\n', len);
+}

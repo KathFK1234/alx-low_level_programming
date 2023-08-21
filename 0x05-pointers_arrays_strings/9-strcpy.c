@@ -9,3 +9,8 @@
 
 char *_strcpy(char *dest, char *src)
 {
+	strcpy(*dest, *src);
+	_puchar('%s\n', *dest);
+
+	return ('*dest');
+}
