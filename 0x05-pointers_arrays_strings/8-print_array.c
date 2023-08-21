@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 
 	for (; c < n; c++)
 	{
-		_putchar('%d', a[c]);
+		_putchar(a[c]);
 		if (c != n - 1)
 		{
 			_putchar(', ');
