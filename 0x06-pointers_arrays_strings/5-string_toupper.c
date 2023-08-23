@@ -2,9 +2,20 @@
 
 /**
  * string_toupper - changes all lowercase letters of string to uppercase
- * @*: string
+ * @s: string
  * Return: Always 0
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
+	int alpha;
+
+	for (alpha = 0; s[alpha] != '\0'; alpha++)
+	{
+		if (s[alpha] >= 'a' && n[alpha] <= 'z')
+		{
+			n[alpha] = n[alpha] -32;
+		}
+	}
+	return (s);
+}

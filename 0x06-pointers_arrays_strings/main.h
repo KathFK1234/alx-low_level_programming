@@ -62,35 +62,35 @@ void reverse_array(int *a, int n);
  * Return: Always 0
  */
 
-char *string_toupper(char *);
+char *string_toupper(char *s);
 
 /**
  * string_toupper - changes all lowercase letters of string to uppercase
- * @*: string
+ * @s: string
  * Return: Always 0
  */
 
-char *cap_string(char *);
+char *cap_string(char *s);
 
 /**
  * cap_string - capitalizes all words of string
- * @*: string
- * Return: Always 0
+ * @s: string
+ * Return: string
  */
 
-char *leet(char *);
+char *leet(char *s);
 
 /**
  * leet - encodes string into 1337
- * @*: string
+ * @s: string
  * Return: Always 0
  */
 
-char *rot13(char *);
+char *rot13(char *s);
 
 /**
  * rot13 - encodes string using rot13
- * @*: string
+ * @s: string
  * Return: Always 0
  */
 
