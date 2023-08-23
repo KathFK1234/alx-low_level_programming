@@ -33,6 +33,7 @@ char *_strncat(char *dest, char *src, int n);
  * @n: number of bytes from src string
  * Return: pointer to dest string
  */
+
 char *_strncpy(char *dest, char *src, int n);
 
 /**
@@ -82,7 +83,7 @@ char *leet(char *);
 /**
  * leet - encodes string into 1337
  * @*: string
- * Return: ALways 0
+ * Return: Always 0
  */
 
 char *rot13(char *);
@@ -109,7 +110,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r);
  * @n2: second number
  * @r: buffer that function will use to store result
  * @size_r: buffer size
- * Return: pointer to result
+ * Return: pointer to result, 0 if result not stored in r
  */
 
 void print_buffer(char *b, int size);
