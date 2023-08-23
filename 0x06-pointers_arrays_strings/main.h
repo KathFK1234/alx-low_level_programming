@@ -93,6 +93,32 @@ char *rot13(char *);
  * Return: Always 0
  */
 
+void print_number(int n);
 
+/**
+ * print_number - prints integer
+ * @n: integer to print
+ * Return: Always 0
+ */
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/**
+ * infinite_add - adds two numbers
+ * @n1: first number
+ * @n2: second number
+ * @r: buffer that function will use to store result
+ * @size_r: buffer size
+ * Return: pointer to result
+ */
+
+void print_buffer(char *b, int size);
+
+/**
+ * print_buffer - prints buffer
+ * @b: string
+ * @size: size of bytes of buffer pointed by b
+ * Return: Always 0
+ */
 
 #endif
