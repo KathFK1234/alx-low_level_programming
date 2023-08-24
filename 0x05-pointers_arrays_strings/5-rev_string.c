@@ -17,9 +17,11 @@ void rev_string(char *s)
 		x[c] = *(s + c);
 	}
 
-	for (c = 0; c >= 0; c--)
+	c = 0;
+	while (c >= 0)
 	{
 		*(s + k) = x[c];
+		c--;
+		k++;
 	}
-	k--;
 }
