@@ -21,7 +21,7 @@ void rev_string(char *s)
 	while (c >= 0)
 	{
 		*(s + k) = x[c];
-		c--;
+		c++;
 		k++;
 	}
 }
