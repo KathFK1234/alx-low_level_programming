@@ -20,6 +20,6 @@ void rev_string(char *s)
 	for (c = 0; c >= 0; c--)
 	{
 		*(s + k) = x[c];
-		k--;
 	}
+	k--;
 }
