@@ -11,14 +11,19 @@ char *cap_string(char *s)
 	int x, alpha;
 	int sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
-	for (x = 0; sep[x] != '\0'; x++)
+	for (alpha = 0; s[alpha] != '\0'; alpha++)
 	{
-		for (alpha = 0; s[alpha] != '\0'; alpha++)
+		if (s[alpha] >= 'a' && s[alpha] <= 'z')
 		{
-			if (s[alpha] >= 'a' && s[alpha] <= 'z')
+			s[alpha] = s[alpha] - 32;
+		}
+		for (x = 0; sep[x] != '\0'; x++)
+		{
+			if (s[alpha] == sep[x] && s[alpha + 1] >= 'a' && s[alpha + 1] <= 'z')
 			{
-				s[alpha] = s[alpha] - 32;
+				s[alpha + 1] = s[alpha + 1] - 32;
 			}
 		}
+	}
 	return (s);
 }
