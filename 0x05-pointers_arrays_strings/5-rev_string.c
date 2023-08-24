@@ -12,7 +12,7 @@ void rev_string(char *s)
 	int k = 0;
 	char x[500];
 
-	for (c = 0; (*(s + c)) != '0'; c++)
+	for (c = 0; *(s + c) != '\0'; c++)
 	{
 		x[c] = *(s + c);
 	}
@@ -24,4 +24,5 @@ void rev_string(char *s)
 		c--;
 		k++;
 	}
+	*(s + k) = '\0';
 }
