@@ -11,7 +11,7 @@ int _atoi(char *s)
 	int c = 1;
 	unsigned int x = 0;
 
-	for (; ;s++)
+	for (; ; s++)
 	{
 		if (*s == '-')
 		{
@@ -19,7 +19,7 @@ int _atoi(char *s)
 		}
 		else if (*s >= '0' && *s <= '9')
 		{
-			x = (x * 10) + (*s - '0');
+			x = (x * 10) + *(s - '0');
 		}
 		else if (x > 0)
 		{
