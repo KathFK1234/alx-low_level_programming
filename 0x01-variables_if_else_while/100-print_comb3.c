@@ -23,7 +23,7 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				else
+				else if (m == '9' && k == '8' || m == '8' && k == '9')
 				{
 					break;
 				}
