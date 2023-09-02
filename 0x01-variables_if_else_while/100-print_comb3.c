@@ -27,6 +27,10 @@ int main(void)
 				{
 					break;
 				}
+				else if (m == '8' && k == '9')
+				{
+					break;
+				}
 			}
 		}
 	}
