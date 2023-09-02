@@ -23,11 +23,11 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				else if (m == 8 && k == 9)
+				{
+					break;
+				}
 			}
-		}
-		if (m == 8 && k == 9)
-		{
-			break;
 		}
 	}
 	putchar('\n');
