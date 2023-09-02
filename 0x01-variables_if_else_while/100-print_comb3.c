@@ -9,6 +9,7 @@ int main(void)
 {
 	int k;
 	int m;
+	int f = 0;
 
 	for (m = 0; m < 9; m++)
 	{
@@ -23,10 +24,11 @@ int main(void)
 			}
 			else
 			{
-				break;
+				f = 1;
 			}
 		}
 	}
-	putchar('\n');
+	if (f)
+		putchar('\n');
 	return (0);
 }
