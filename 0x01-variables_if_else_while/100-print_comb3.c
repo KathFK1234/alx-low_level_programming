@@ -25,7 +25,7 @@ int main(void)
 				}
 			}
 		}
-		if (m == 8 && k == 10)
+		if (m == 8 && k == 9)
 		{
 			break;
 		}
