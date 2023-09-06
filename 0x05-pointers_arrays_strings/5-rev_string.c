@@ -10,14 +10,18 @@ void rev_string(char *s)
 {
 	int c, i;
 
-	for (c = 0; *(s + c) != '\0'; c++)
+	for (i = 0; *(s + i) != '\0'; i++)
+	{}
+
+	for (c = 0; c < i; c++)
 	{
 		_putchar(s[c]);
-		_putchar('\n');
 	}
 
-	for (i = c - 1; i >= 0; i--)
+	_putchar('\n');
+
+	for (c = i - 1; c >= 0; c--)
 	{
-		_putchar(s[i]);
+		_putchar(s[c]);
 	}
 }
