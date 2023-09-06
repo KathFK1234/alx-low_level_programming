@@ -12,13 +12,13 @@ void print_rev(char *s)
 
 	for (c = 0; *(s + c) != '\0'; c++)
 	{
-		++s;
+		s++;
 	}
 
-	for (i = c; i > 0; i--)
+	for (i = c; i > 0; --i)
 	{
-		_putchar(*s);
 		--s;
+		_putchar(*s);
 	}
 
 	_putchar('\0');
