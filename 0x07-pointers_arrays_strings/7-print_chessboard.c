@@ -7,5 +7,5 @@
  * Return: Always 0
  */
 
-void print_chessboard(*a[8])
+void print_chessboard(char (*a)[8])
 {

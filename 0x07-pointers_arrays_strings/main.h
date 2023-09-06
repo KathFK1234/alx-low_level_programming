@@ -71,7 +71,7 @@ char *_strstr(char *haystack, char *needle);
  * Return: Pointer to beginning of located substring, NULL if not found
  */
 
-void print_chessboard(char (*a[8]);
+void print_chessboard(char (*a)[8]);
 
 /**
  * print_chessboard - prints chessboard
