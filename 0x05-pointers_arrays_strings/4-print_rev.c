@@ -19,9 +19,10 @@ void print_rev(char *s)
 
 	for (i = c; i > 0; i--)
 	{
-		_putchar(*s);
+		_putchar(*(s - 1);
 		s--;
 	}
 
+	_putchar('\0');
 	_putchar('\n');
 }
