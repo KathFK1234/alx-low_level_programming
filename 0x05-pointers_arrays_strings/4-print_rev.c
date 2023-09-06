@@ -16,13 +16,10 @@ void print_rev(char *s)
 		_putchar(*(s + c));
 	}
 
-	while (i >= 'a' && i <= 'z')
+	for (i = 0; s[i] != '\0'; i--)
 	{
-		while (i >= 'A' && i <= 'Z')
-		{
-			_putchar(*(s + i));
-			s--;
-		}
+		s--;
+		_putchar(*(s + i));
 	}
 	_putchar('\n');
 }
