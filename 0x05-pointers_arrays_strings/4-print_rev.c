@@ -15,6 +15,8 @@ void print_rev(char *s)
 		s++;
 	}
 
+	s--;
+
 	for (i = c; i > 0; --i)
 	{
 		--s;
