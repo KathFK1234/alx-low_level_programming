@@ -8,7 +8,7 @@
  * Return: Always 0
  */
 
-char *strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int c;
 
@@ -20,7 +20,7 @@ char *strncpy(char *dest, char *src, int n)
 	while (c < n)
 	{
 		dest[c] = '\0';
-		c++
+		c++;
 	}
 
 	return (dest);
