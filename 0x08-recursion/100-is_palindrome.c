@@ -15,13 +15,16 @@ int is_palindrome(char *s)
 
 	if (*s != '\0')
 	{
-		while (x = 0)
+		while (x == 0)
 		{
 			if (s[x] != '\0')
-				if (x++ == --x)
+			{
+				if (x++ == x--)
 					return (1);
 				else
 					return (0);
+			}
 		}
 	}
+	is_palindrome(s + 1);
 }
