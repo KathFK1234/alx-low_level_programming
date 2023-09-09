@@ -22,9 +22,7 @@ int wildcmp(char *s1, char *s2)
 		if (s1[x] == s2[x] && s1[x] != '\0')
 			return (1);
 	}
-	else
-		return (0);
 
 	wildcmp(s1, s2);
-	return;
+	return (0);;
 }
