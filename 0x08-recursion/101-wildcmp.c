@@ -14,7 +14,8 @@ int wildcmp(char *s1, char *s2)
 	
 	if ((s1[x] - s2[y]) == 0 && s1[x] != '\0')
 	{
-		x++; y++;
+		x++;
+		y++;
 		return (1);
 	}
 	else if (x == '*' || y == '*')
@@ -23,6 +24,6 @@ int wildcmp(char *s1, char *s2)
 			return (1);
 	}
 
+	return (0);
 	wildcmp(s1, s2);
-	return (0);;
 }
