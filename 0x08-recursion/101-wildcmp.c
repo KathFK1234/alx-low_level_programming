@@ -11,7 +11,7 @@ int wildcmp(char *s1, char *s2)
 {
 	int x = 0;
 	int y = 0;
-	
+
 	if ((s1[x] - s2[y]) == 0 && s1[x] != '\0')
 	{
 		x++;
