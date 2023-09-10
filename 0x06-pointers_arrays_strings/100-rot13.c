@@ -26,10 +26,9 @@ char *rot13(char *s)
 	{
 		for (c = 0; alpha1[c] != '\0'; c++)
 		{
-			if (s[x] == alpha1[c])
+			if (x == c)
 			{
-				alpha1[c] = alpha2[c];
-				alpha2[c] = s[x];
+				s[x] == alpha2[c];
 			}
 		}
 	}
