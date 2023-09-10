@@ -28,7 +28,7 @@ char *rot13(char *s)
 		{
 			if (x == c)
 			{
-				s[x] == alpha2[c];
+				s[x] = alpha2[c];
 			}
 		}
 	}
