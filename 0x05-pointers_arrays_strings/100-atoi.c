@@ -29,8 +29,6 @@ int _atoi(char *s)
 		{
 			return (0);
 		}
-		else if (*s != '0' && *s != '9')
-			return (0);
 	}
 	return (x * c);
 }
