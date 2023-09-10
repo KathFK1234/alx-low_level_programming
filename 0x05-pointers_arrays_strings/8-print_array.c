@@ -14,14 +14,14 @@ void print_array(int *a, int n)
 
 	for (c = 0; c < n; c++)
 	{
-		if (c != n - 1)
+		if (c < n - 1)
 		{
 			printf("%d, ", a[c]);
 		}
-		else
+		else if (c == n - 1)
 		{
 			printf("%d", a[c]);
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 }
