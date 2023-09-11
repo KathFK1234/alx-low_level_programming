@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 	{
 		for (; y < argc; y++)
 		{
-			if (argv[x] != '\0' && argv[y] != '\0')
+			if (argv[x] != argv[argc] && argv[y] != argv[argc])
 				printf("%s\n", argv[a]);
-			else if (argv[x] == '\0' && argv[y] == '\0')
+			else if (argv[x] == argv[argc] && argv[y] == argv[argc])
 				printf("0\n");
 			else
 			{
