@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,16 +11,12 @@
 
 int main(int argc, char *argv[])
 {
-	int i = 0;
-	int j = 0;
-	int k = i * j;
-
-	for (i = 0; i < argc; i++)
+	if (argc == 3)
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	else if (argc < 3 || argc >= 4)
 	{
-		for (j = 0; j < argc; j++)
-		{
-			_putchar(argv[k]);
-		}
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
