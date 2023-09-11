@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		{
 			if (argv[x] != argv[argc] && argv[y] != argv[argc])
 			{
-				argv[a] = argv[x] + argv[y];
+				argv[a] = argv[x + y];
 				printf("%s\n", argv[a]);
 			}
 			else if (argv[x] == argv[argc] && argv[y] == argv[argc])
