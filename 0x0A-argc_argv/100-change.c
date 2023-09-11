@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		for (x = 0; x < argc; x++)
 		{
 			y = atoi(argv[x]);
-			z = atoi(cents[x]);
+			z = cents[x];
 			a = y / z;
 			b = y % z;
 			c = a + b;
