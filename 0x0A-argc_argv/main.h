@@ -3,6 +3,8 @@
 
 int main(int argc, char* argv[]);
 
-int _putchar(char c);
+int _putchar(char* c);
+
+int printf(int i);
 
 #endif
