@@ -11,9 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	unsigned int x = 1;
-	unsigned int y = 1;
-	unsigned int a = x + y;
+	int x = 1;
+	int y = 1;
+	int a = x + y;
 
 	for (; x < argc; x++)
 	{
