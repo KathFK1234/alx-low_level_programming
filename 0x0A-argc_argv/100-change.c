@@ -9,7 +9,7 @@
  * Return: Always 0
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int x, y, z, a, b, c;
 	unsigned int cents[5] = {1, 2, 5, 10, 25};
@@ -24,7 +24,6 @@ int main(int argc, char *argv)
 		printf("0\n");
 		return (0);
 	}
-	cents = atoi(argv[1]);
 	if (argc == 2)
 	{
 		for (x = 0; argv[x] != '\0'; x++)
