@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
-		_putchar(*argv[0]);
+	(void) argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
