@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int x, y, z, a, b;
+	int x, y, z, a, b, c;
 	int cents[5] = {1, 2, 5, 10, 25};
 
 	if (argc != 2)
@@ -32,8 +32,9 @@ int main(int argc, char *argv[])
 			z = cents[x];
 			a = y / z;
 			b = y % z;
+			c = a + b;
 		}
-		printf("%d\n", b);
+		printf("%d\n", c);
 	}
 	return (0);
 }
