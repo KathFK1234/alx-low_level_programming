@@ -10,7 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j;
+	int i = 0; 
+	int j = 0;
 	int k = i * j;
 
 	for (i = 0; i < argc; i++)
