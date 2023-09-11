@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int x, y, z, a, b, c;
-	unsigned int cents[5] = {1, 2, 5, 10, 25};
+	int cents[5] = {1, 2, 5, 10, 25};
 
 	if (argc != 2)
 	{
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	}
 	if (argc == 2)
 	{
-		for (x = 0; argv[x] != '\0'; x++)
+		for (x = 0; x < argc; x++)
 		{
 			y = atoi(argv[x]);
 			z = atoi(cents[x]);
