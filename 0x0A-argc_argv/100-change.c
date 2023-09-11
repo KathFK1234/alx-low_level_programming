@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 			a = y / z;
 			b = y % z;
 		}
-		printf("%d, %d\n", a, b);
+		printf("%d\n", b);
 	}
 	return (0);
 }
