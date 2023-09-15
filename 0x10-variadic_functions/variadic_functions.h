@@ -9,11 +9,20 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 
 void print_strings(const char *separator, const unsigned int n, ...);
 
+void print_char(va_list an);
+
+void print_int(va_list an);
+
+void print_float(va_list an);
+
+void print_string(va_list an);
+
 void print_all(const char * const format, ...);
 
-typedef struct
+typedef struct type
 {
-	char *;
-	void (*)(va_list);
-}
+	char *f;
+	void (*f)(va_list an);
+} type;
+
 #endif
