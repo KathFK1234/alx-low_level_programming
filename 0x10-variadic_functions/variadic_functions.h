@@ -23,7 +23,7 @@ void print_all(const char * const format, ...);
 
 typedef struct type
 {
-	char *anf;
+	char *t;
 	void (*f)(va_list an);
 } type;
 
