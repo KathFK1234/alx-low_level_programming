@@ -76,7 +76,7 @@ void print_all(const char * const format, ...)
 		{
 			if (*check[y].f == format[x])
 			{
-				printf("%s", separator);
+				printf("%s", sep);
 				check[y].f(an);
 				sep = ", ";
 			}
