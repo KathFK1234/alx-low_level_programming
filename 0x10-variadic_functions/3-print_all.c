@@ -72,9 +72,9 @@ void print_all(const char * const format, ...)
 
 	while (format && format[x])
 	{
-		while (check[y].f)
+		while (check[y].t)
 		{
-			if (*check[y].f == format[x])
+			if (*check[y].t == format[x])
 			{
 				printf("%s", sep);
 				check[y].f(an);
