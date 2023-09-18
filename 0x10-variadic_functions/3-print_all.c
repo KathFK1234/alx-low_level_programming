@@ -58,7 +58,7 @@ void print_all(const char * const format, ...)
 {
 	va_list an;
 	char *sep = "";
-	int x = 0;
+	int x;
 	int y;
 	type check[] = {
 		{"c", print_char},
@@ -69,7 +69,7 @@ void print_all(const char * const format, ...)
 	};
 
 	va_start(an, format);
-
+	x = 0;
 	while (format && format[x])
 	{
 		y = 0;
