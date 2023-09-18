@@ -21,7 +21,6 @@ int is_palindrome(char *s)
 		if (s[y] != '\0')
 		{
 			x--;
-			y++;
 			if (s[x] == s[y])
 				return (1);
 		}
