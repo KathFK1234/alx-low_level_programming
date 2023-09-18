@@ -23,6 +23,8 @@ void print_all(const char * const format, ...);
 
 /**
  * struct type - structure
+ * @t: string
+ * @f: pointer
  */
 typedef struct type
 {
