@@ -59,7 +59,7 @@ void print_all(const char * const format, ...)
 	va_list an;
 	char *sep = "";
 	int x = 0;
-	int y = 0;
+	int y;
 	type check[] = {
 		{"c", print_char},
 		{"i", print_int},
@@ -72,6 +72,7 @@ void print_all(const char * const format, ...)
 
 	while (format && format[x])
 	{
+		y = 0;
 		while (check[y].t)
 		{
 			if (*check[y].t == format[x])
