@@ -23,6 +23,7 @@ int is_palindrome(char *s)
 			x--;
 			if (s[x] == s[y])
 				return (1);
+			y++;
 		}
 	}
 	return (0);
