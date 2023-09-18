@@ -4,7 +4,6 @@
 
 /**
  * new_dog - creates new dog
- * free_dog - frees bytes
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
@@ -50,6 +49,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	return (ndog);
 }
 
+/**
+ * free_dog - frees bytes
+ * @d: pointer
+ * Return: nothing
+ */
 void free_dog(dog_t *d)
 {
 	if (d == NULL)
