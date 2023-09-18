@@ -9,7 +9,7 @@
 int is_palindrome(char *s)
 {
 	int x = 0;
-	int y = x - 1;
+	int y;
 
 	if (*s == '\0')
 		return (1);
@@ -17,14 +17,14 @@ int is_palindrome(char *s)
 	if (s[x] != '\0')
 	{
 		x++;
+		y = x - 1;
 		if (s[y] != '\0')
 		{
 			x--;
 			if (s[x] == s[y])
 				return (0);
-			else
-				return (1);
 		}
 	}
+	return (1);
 	is_palindrome(s + 1);
 }
