@@ -22,10 +22,9 @@ int is_palindrome(char *s)
 			x--;
 			if (s[x] == s[y])
 				return (0);
+			else
+				return (1);
 		}
-		return (1);
 	}
-	else if (s[x] != s[y] && s[y] != '\0')
-		return (0);
 	is_palindrome(s + 1);
 }
