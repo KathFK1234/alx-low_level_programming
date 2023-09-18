@@ -4,6 +4,7 @@
 
 /**
  * new_dog - creates new dog
+ * free_dog - frees bytes
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
