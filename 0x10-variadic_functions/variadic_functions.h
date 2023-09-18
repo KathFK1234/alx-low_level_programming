@@ -22,7 +22,7 @@ void print_string(va_list an);
 void print_all(const char * const format, ...);
 
 /**
- * type - structure
+ * struct type - structure
  */
 typedef struct type
 {
