@@ -20,7 +20,7 @@ int wildcmp(char *s1, char *s2)
 		y++;
 		return (1);
 	}
-	else if (*s1 == "*" || *s2 == "*")
+	else if (*s1 == '*' || *s2 == '*')
 	{
 		if (s1[x] == s2[x] && s1[x] != '\0')
 			return (1);
