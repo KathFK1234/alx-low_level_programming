@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * _sqrt_recursion - returns natural root of num
@@ -10,7 +8,7 @@
 
 int _sqrt_recursion(int n)
 {
-	int x = 0;
+	int x;
 
 	if (n <= 0)
 		return (-1);
