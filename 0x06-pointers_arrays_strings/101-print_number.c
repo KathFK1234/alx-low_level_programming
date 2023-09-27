@@ -12,14 +12,13 @@ void print_number(int n)
 	if (n == 0)
 	{
 		_putchar(n);
-		return;
 	}
 
 	if (n == INT_MIN)
 	{
 		_putchar('-');
 		print_number(-1 * (n + 1));
-		_putchar(8);
+		_putchar('8');
 		return;
 	}
 
