@@ -21,10 +21,10 @@ int is_palindrome(char *s)
 		if (s[x] != '\0')
 		{
 			if (x++ == y--)
-				return (1);
-			else
 				return (0);
+			else
+				return (1);
 		}
 	}
-	return (1);
+	return (0);
 }
