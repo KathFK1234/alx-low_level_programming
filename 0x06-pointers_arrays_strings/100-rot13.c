@@ -29,6 +29,7 @@ char *rot13(char *s)
 			if (s[x] == alpha1[c])
 			{
 				alpha1[0] = alpha2[0];
+				s[x] = alpha2[c];
 			}
 		}
 	}
