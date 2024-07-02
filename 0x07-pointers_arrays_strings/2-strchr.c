@@ -9,6 +9,8 @@
 
 char *_strchr(char *s, char c)
 {
+	char NULL = '\0';
+
 	while (*s)
 	{
 		if (*s == c)
