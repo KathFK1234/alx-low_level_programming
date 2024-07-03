@@ -1,5 +1,4 @@
 #include "main.h"
-#define NULL '\0'
 
 /**
  * _strchr - locates character in string
@@ -10,6 +9,8 @@
 
 char *_strchr(char *s, char c)
 {
+	char *pointer = '\0';
+
 	while (*s)
 	{
 		if (*s == c)
@@ -18,5 +19,5 @@ char *_strchr(char *s, char c)
 		}
 		s++;
 	}
-	return (NULL);
+	return (pointer);
 }
