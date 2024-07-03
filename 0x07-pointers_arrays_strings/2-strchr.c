@@ -10,7 +10,7 @@
 
 char *_strchr(char *s, char c)
 {
-	char *pointer = NULL;
+	/*char *pointer = NULL;*/
 
 	while (*s)
 	{
@@ -20,5 +20,5 @@ char *_strchr(char *s, char c)
 		}
 		s++;
 	}
-	return (pointer);
+	return (NULL);
 }
