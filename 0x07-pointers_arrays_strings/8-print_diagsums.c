@@ -10,7 +10,8 @@
 
 void print_diagsums(int *a, int size)
 {
-	int x, sum;
+	int x;
+	int sum = 0;
 	int diagonal_1 = 0;
 	int diagonal_2 = 0;
 
