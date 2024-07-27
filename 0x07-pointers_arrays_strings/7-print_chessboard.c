@@ -2,8 +2,7 @@
 
 /**
  * print_chessboard - prints chessboard
- * @a: string
- * @8: array value
+ * @a: number of rows
  * Return: Always 0
  */
 
